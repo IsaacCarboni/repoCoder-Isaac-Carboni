@@ -110,3 +110,13 @@ grid-template-rows: 100px 200px;
 
  }
  
+ .item {
+  border: 4px solid #ccc; /* Borde gris claro por defecto */
+  transition: border-color 0.3s ease; /* Suaviza el cambio de color del borde */
+  border-radius: 10px;
+}
+
+/* Cambio de color cuando pasas el mouse sobre la tarjeta */
+.item:hover {
+  border-color: #00bfff; /* Celeste en el hover */
+}
